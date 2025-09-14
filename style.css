@@ -53,6 +53,17 @@ box-sizing: border-box;
 }
 
 
+.content {
+    padding: 0 650px;
+    margin-top: 150px;
+}
+
+.team-falcons {
+    margin-top: 200px;
+}
+
+
+
 .center-card {
 background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
 border-radius: 14px;
