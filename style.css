@@ -46,6 +46,12 @@ padding: 24px;
 box-sizing: border-box;
 }
 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
 
 .center-card {
 background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
@@ -84,6 +90,4 @@ font-size: 28px;
 }
 }
 
-.card-dota {
-    
-}
+
