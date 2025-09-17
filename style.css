@@ -75,6 +75,13 @@ box-sizing: border-box;
     margin-top: 200px;
 }
 
+.description {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1440px;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
 .team-xtreme {
     margin-top: 200px;
 }
@@ -144,6 +151,59 @@ box-sizing: border-box;
     padding: 0 200px;
     font-family:'Courier New', Courier, monospace
 }
+
+.site-footer {
+  background: #0f1724; /* тёмный фон */
+  color: #dbe7ff;     /* светлый текст */
+padding: 18px 16px;
+font-family: Arial, sans-serif;
+font-size: 14px;
+}
+
+.footer-inner {
+max-width: 1100px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+}
+
+.contact a {
+color: #9fd3ff;
+text-decoration: none;
+margin-right: 14px;
+}
+
+.contact a:hover {
+text-decoration: underline;
+}
+
+.phone::before {
+content: "☎️ ";
+}
+
+.email::before {
+content: "✉️ ";
+}
+
+.copyright {
+    margin-right: 400px;
+}
+
+/* Адаптивность для узких экранов */
+@media (max-width: 520px) {
+.footer-inner {
+flex-direction: column;
+text-align: center;
+}
+.contact a {
+display: inline-block;
+margin: 6px 8px;
+}
+}
+
 
 .center-card {
 background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
